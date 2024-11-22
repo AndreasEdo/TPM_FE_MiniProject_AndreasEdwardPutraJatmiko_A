@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+body {
+    background-color: #E3E3E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px; 
+    padding: 16px; 
+}
+
+.card .form {
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 0; 
+    width: 100%; 
+    max-width: 400px; 
+    height: auto;
+    max-height: 1000px;
+}
+
+.top-line {
+    margin: 24px;
+    margin-top:12px;
+    display: flex;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+
+    gap:8px;
+}
+.line-1{
+
+    height: 2px;
+    width: 74px;
+
+    
+    background-color: black;
+    border-radius: 2px;
+}
+
+.line-2{
+    height: 2px;
+    width: 74px;
+    background-color: #EAEAEA;
+    border-radius: 2px;
+}
+.line-3{
+    height: 2px;
+    width: 74px;
+    background-color: #EAEAEA;
+    border-radius: 2px;
+}
+.line-4{
+    height: 2px;
+    width: 74px;
+    background-color: #EAEAEA;
+    border-radius: 2px;
+}
+
+
+.header .TPM-36 {
+    margin:24px;
+    margin-top:12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.TPM-36 > span {
+    font-weight: 700;
+    font-size: 12px;
+    color: black;
+}
+
+.close {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+}
+
+.circle {
+    margin:24px;
+    margin-top:12px;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 0px;
+    height: auto;
+}
+
+.circle >img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.number {
+    margin:24px;
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 12px;
+    height: auto;
+}
+
+.number > h2 {
+    font-size: 60px; 
+    font-weight: 900;
+    color: black;
+}
+
+.description {
+    margin:24px;
+    margin-top:12px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.description > p {
+    color: #615D5D;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.star {
+    margin:24px;
+    margin-top:12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: auto;
+    padding: 0px;
+    margin: 0;
+}
+
+.star .star-img {
+    width: 100%; 
+    max-width: 480px; 
+    height: auto; 
+    object-fit: cover; 
+}
