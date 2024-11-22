@@ -96,6 +96,11 @@ body {
     cursor: pointer;
     padding: 0;
     outline: none;
+    margin-top: 6px;
+}
+.close >img{
+    width: 12px;
+    height: 12px;
 }
 
 .circle {
@@ -123,13 +128,13 @@ body {
 
 .number > h2 {
     font-size: 60px; 
-    font-weight: 900;
+    font-weight: 1000;
     color: black;
 }
 
 .description {
     margin:24px;
-    margin-top:12px;
+    margin-top:6px;
     text-align: left;
     margin-bottom: 24px;
 }
@@ -142,7 +147,7 @@ body {
 
 .star {
     margin:24px;
-    margin-top:12px;
+    margin-top:24px;
     display: flex;
     justify-content: center;
     align-items: center;
